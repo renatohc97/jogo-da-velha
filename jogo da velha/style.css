@@ -1,0 +1,46 @@
+/* estilização de toda a pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: cursive;
+}
+/* estilização somente do body */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+/* estilização da div main */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+/* estilização do h1 */
+h1 {
+    text-align: center;
+}
+/* estilização do hr */
+hr {
+    font-weight: bold;
+    height: 3px;
+    background: black ;
+    margin-bottom: 10px;
+}
+/* estilização da class "game" */
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* estilização da class "button" */
+.game button {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: white;
+}
